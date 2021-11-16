@@ -50,6 +50,7 @@
     "tdd": "jest --watch",
     "release": "rollout",
     "prepublishOnly": "yarn build",
+    "prepare": "yarn build",
     "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write ",
     "precommit": "lint-staged"
   },
