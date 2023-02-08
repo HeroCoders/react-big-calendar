@@ -4398,7 +4398,7 @@ var TimeGridHeader = /*#__PURE__*/ (function(_React$Component) {
     var style = {}
 
     if (isOverflowing) {
-      style[rtl ? 'marginLeft' : 'marginRight'] = scrollbarSize() + 'px'
+      style[rtl ? 'marginLeft' : 'marginRight'] = scrollbarSize() - 1 + 'px'
     }
 
     var groupedEvents = resources.groupEvents(events)
